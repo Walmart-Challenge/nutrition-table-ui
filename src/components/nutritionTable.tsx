@@ -8,7 +8,6 @@ import { DessertContext } from '../context/contextProvider';
 export const NutritionTable: React.FC = () => {
   const { dataTable, setDataTable } = useContext(DessertContext);
   const [sortState, setSortState] = useState<selectedSortSelector>({});
-  console.log('dataTable nutritiontable :>> ', dataTable);
 
   const getSortIcon = (headerColumn: string): JSX.Element => {
     switch (sortState[headerColumn]) {
