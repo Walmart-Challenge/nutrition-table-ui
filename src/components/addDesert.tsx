@@ -145,7 +145,7 @@ export const AddDesert: React.FC = (): JSX.Element => {
   return (
     <div className="flex flex-column vh-100 dn w-100 items-center justify-center bg-light-gray ">
       <form className="br1 bg-white flex flex-column items-center justify-around w-50 shadow-4 overflow-scroll" style={{ height: "90vh" }} onSubmit={submitHandler}>
-        <label className="br1 w-75 bg-gold white h2 mb3 content-stretch courier tc db fw7 pa1 mv2 " style={{ lineHeight: "2" }}>
+        <label className="br1 w-75 bg-gold white h2 mb3 content-stretch courier tc db fw7 pa1 mv2 h3-m " style={{ lineHeight: "2" }}>
           <ImWarning /> Please fill all details before you submit
         </label>
         {renderInputs()}
